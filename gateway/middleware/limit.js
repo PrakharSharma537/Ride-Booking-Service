@@ -1,8 +1,5 @@
 import rateLimit from 'express-rate-limit';
 
-// middleware/limit.js
-import rateLimit from 'express-rate-limit';
-
 export const globalLimiter = () =>
   rateLimit({
     windowMs: 15 * 60 * 1000, // 15 minutes
@@ -16,4 +13,3 @@ export const globalLimiter = () =>
   });
 
 
-app.use(globalLimiter); 
