@@ -1,4 +1,4 @@
-# 🚖 Ride Booking Microservices (Node.js + Express + MongoDB + RabbitMQ)
+# 🚖 Ride Booking Services (Node.js + Express + MongoDB + RabbitMQ)
 
 A **Ride Booking System** built with **Microservices Architecture** using  
 **Node.js, Express.js, MongoDB, and RabbitMQ**.  
